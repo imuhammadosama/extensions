@@ -1,0 +1,31 @@
+{
+  "background": {
+    "scripts": ["/js/jquery.min.js", "/js/storage.js", "/js/app.js"]
+  },
+  "browser_action": {
+    "default_icon": "./images/icon_off.png",
+    "default_popup": "/popup.html",
+    "default_title": "VPN"
+  },
+  "description": "Free connect to super express VPN servers in 100+ locations to avoid bandwidth throttling with high speed VPN extension for Chrome.",
+  "icons": {
+    "128": "./images/icon_128.png",
+    "16": "./images/icon.png",
+    "24": "./images/icon_24.png",
+    "32": "./images/icon_32.png",
+    "48": "./images/icon_48.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApYHQ8Zzj6NH8JFzL4Xb3NfApSlWvlJtikogCh/HE/aeyQasvMjHYNw/MrraGxEfuB52xCtqhopsxLFS46cVQRS9mu469Jn9Q6BBS0HWPqxssO9R9XOhhV2yybKX4kFeUgv+H00SJ9LG7EiMvixo27MiYWrnRRCWjoxKsTnR2E1NgwY/Wcd3Q/LcdKiARZKPvP6rUDddG+l//SCbkw0zx8jDexgfLvd/pw1qrqsX80ylX+BWSM0pwZaiErzJxtTGwgDl52GUSVQHZVJiqL0BBNEIaSMLYSO+0XMc/mlAUek5Vqps4hVJhpEHnchHBCJE/6gYzLBC0ZT32fzu059MATwIDAQAB",
+  "manifest_version": 2,
+  "name": "VPN",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.itopvpn.com/api/ip-checker",
+    "proxy",
+    "storage"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.1",
+  "web_accessible_resources": ["/js/vpn.json"]
+}

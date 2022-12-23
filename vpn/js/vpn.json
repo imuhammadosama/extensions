@@ -1,0 +1,41 @@
+{
+		"locations":[
+		{
+			 "country_code": "USN",
+			 "country_name": "United States",
+			 "city":         "New York",
+			 "nodes":[{"ip":"ny2.itopvpn-plugin.com",
+					  "port":"13128",
+					  "schema":"HTTPS"			 
+			 }]		 
+		},
+		{
+			"country_code": "USC",
+			 "country_name": "United States",
+			 "city":         "California",
+			 "nodes":[{"ip":"can1.itopvpn-plugin.com",
+					  "port":"13128",
+					  "schema":"HTTPS"			 
+			 }]		 
+		},	
+		{
+			"country_code": "GB",
+			 "country_name": "United Kingdom",
+			 "city":         "London",
+			 "nodes":[{"ip":"uk2.itopvpn-plugin.com",
+					  "port":"13128",
+					  "schema":"HTTPS"			 
+			 }]		 
+		},
+		{
+			"country_code": "CA",
+			 "country_name": "Canada",
+			 "city":         "Toronto",
+			 "nodes":[{"ip":"ca2.itopvpn-plugin.com",
+					  "port":"13128",
+					  "schema":"HTTPS"			 
+			 }]		 
+		}
+		
+		]
+}
